@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+  /*background-color: #BD9971;*/
+ background-image: url('https://img.freepik.com/free-photo/golden-background-with-palm-tree_53876-108441.jpg?t=st=1655848100~exp=1655848700~hmac=83f1f45eb1538f99a05314d8d750559793ddfe3b1b018e1f2992cffbd4063e77&w=996');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  }
+
+nav a
+{
+  float: left;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display:in-line;
+  
+  
+}
+nav
+{
+  background-color: #333;
+  hight: 10px;
+  position: absolute;
+}
+
+.c-site-header {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ background-color: #dccab1;
+  }
+
+.grid-container
+{
+  display:grid;
+  background-color: #dccab1;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0px;
+  
+  text-align: center;
+  position: center;
+  font-size:;
+  border-bottom: 10px solid #a28d72;
+  /* i need lines between each grid */
+  margin-bottom: 30px;
+ }
+
+
+h6 {
+  font-size:14px;
+}
+p{font-size:10px;
+text-align: center}
+
+.vid-class
+{
+  position: fix;
+  margin-left: 10px;
+  
+}
+
+main
+{
+  background-color: #dccab1;
+}
+
+footer
+{
+  background-color: #dccab1;
+  padding:15px;
+  margin-top:30px;
+}
+
+.center-img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
